@@ -1,5 +1,32 @@
 {
   "dependencies": {
-    "latest-version": "^6.0.0"
-  }
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "latest-version": "^6.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  },
+  "name": "restify",
+  "version": "1.0.0",
+  "main": "source/server.ts",
+  "scripts": {
+    "dev": "nodemon source/server.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkarshK95/Restify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkarshK95/Restify/issues"
+  },
+  "homepage": "https://github.com/UtkarshK95/Restify#readme",
+  "description": ""
 }
